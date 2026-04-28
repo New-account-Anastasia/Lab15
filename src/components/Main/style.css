@@ -1,0 +1,28 @@
+.Main {
+    display: flex;
+    justify-items:center ;
+    align-items: center;
+    background-color: rgb(250, 197, 224);
+    height: 100%;
+    width: 100%;
+}
+
+.main_container{
+    width: 100%;
+    height: 100%;
+    max-width:1200px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+
+.main_container > * {
+border: 1px solid white;
+}
+
+.flex-center{
+     display: flex;
+    justify-items:center ;
+    align-items: center;
+}
